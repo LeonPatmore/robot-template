@@ -1,0 +1,5 @@
+[packages]
+robotframework = "*"
+
+[requires]
+python_version = "3.9"
