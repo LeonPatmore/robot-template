@@ -1,9 +1,16 @@
 *settings
 Library     ExampleLibrary
 
+*variables
+@{NAMES}    Leon    Dan     Liam
+
 *test cases
 
-MyTest
-    Given i am a test
-    When i run
-    Then i pass
+Test
+    Log    @{NAMES}
+
+#MyTest
+#    Log @{NAMES}
+#    Given i am a test @{NAMES}
+#    When i run
+#    Then i pass
